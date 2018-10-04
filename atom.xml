@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-03T08:18:13.199Z</updated>
+  <updated>2018-10-04T06:28:46.634Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>deepin安装教程</title>
+    <link href="http://yoursite.com/2018/10/04/4581/"/>
+    <id>http://yoursite.com/2018/10/04/4581/</id>
+    <published>2018-10-04T05:22:00.000Z</published>
+    <updated>2018-10-04T06:28:46.634Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Deepin安装"><a href="#Deepin安装" class="headerlink" title="Deepin安装"></a>Deepin安装</h1><p>在所有Linux里面，我觉得deepin是最好用的一个，相对于小白说也比较友好，<br>最方便的是集成了国人常用的QQ、微信等等软件（我这不是在打广告哈！）</p><h1 id="第一步——从官网下载镜像"><a href="#第一步——从官网下载镜像" class="headerlink" title="第一步——从官网下载镜像"></a>第一步——从官网下载镜像</h1><p>官网：<a href="http://www.deepin.org/download/" target="_blank" rel="noopener">http://www.deepin.org/download/</a><br><img src="/2018/10/04/4581/1.png" title="这是一个新的博客的图片的说明"></p><h1 id="打开下载好的镜像文件："><a href="#打开下载好的镜像文件：" class="headerlink" title="打开下载好的镜像文件："></a>打开下载好的镜像文件：</h1><img src="/2018/10/04/4581/2.png" title="这是一个新的博客的图片的说明"><p>提取那个.exe结尾的文件，它就是自带的启动盘制作工具</p><h1 id="运行："><a href="#运行：" class="headerlink" title="运行："></a>运行：</h1><img src="/2018/10/04/4581/3.png" title="这是一个新的博客的图片的说明"><p>然后加入你刚刚下载好的iso镜像压缩包<br>接着选择你的U盘（注意，安装会清空u盘文件，所以请提前备份）<br>记得打上那个格式化。。。。。<br><img src="/2018/10/04/4581/4.png" title="这是一个新的博客的图片的说明"></p><h1 id="分空间"><a href="#分空间" class="headerlink" title="分空间"></a>分空间</h1><p>接着，右键Windows徽标，选择磁盘管理<br>空间的话，我建议是50GB左右，如果空间少不用来做开发的话可以20~30左右<br><img src="/2018/10/04/4581/5.png" title="这是一个新的博客的图片的说明"><br><img src="/2018/10/04/4581/6.png" title="这是一个新的博客的图片的说明"></p><h1 id="安装系统"><a href="#安装系统" class="headerlink" title="安装系统"></a>安装系统</h1><p> 找准系统开机选择按钮<br>    根据不同的机型，进入方式不同，华硕是ESC按钮，其余的电脑自己百度，教程很多。一般就是ESC、F1～F9、Enter、delete，一般F2概率会比较大<br><img src="/2018/10/04/4581/7.png" title="这是一个新的博客的图片的说明"></p><p>这个启动盘支持UEFI启动，如果你进入失败了（没看到安装界面，或者卡住了），请开启计算机开机引导兼容模式。如果你成功进入了，跳过这一步</p><img src="/2018/10/04/4581/8.png" title="这是一个新的博客的图片的说明"><p>选择“Install Deepin”</p><img src="/2018/10/04/4581/9.png" title="这是一个新的博客的图片的说明"><p>接着进入安装界面—选择简体中文哈，<br>当然你想选其他的也可以<br>账户自己起名<br>时区默认就可以<br><img src="/2018/10/04/4581/9.png" title="这是一个新的博客的图片的说明"><br>找出那块之前分出的freespace<br><img src="/2018/10/04/4581/10.png" title="这是一个新的博客的图片的说明"><br>开始安装！！</p><p>不得不说这个系统安装还是挺快的，大概二十分钟左右就可以了</p><h1 id="更改启动顺序"><a href="#更改启动顺序" class="headerlink" title="更改启动顺序"></a>更改启动顺序</h1><p>这里主要用deepin的就可以结束了，但是作为纯干货文章还是把这里顺便说下否则每回都要在那里等着选择启动是真的烦<br><img src="/2018/10/04/4581/11.png" title="这是一个新的博客的图片的说明"><br>选择任务栏里的设置<br>接着选择那个系统信息<br>没错，就是那个倒着的叹号<br><img src="/2018/10/04/4581/12.png" title="这是一个新的博客的图片的说明"></p><p>接着选择最下面的启动菜单<br>把Windows boot ……<br>那一项给点选上<br>输入你的密码<br>好了启动项改动完成！！</p><p>现在享受你的deepin吧！</p><p>这回的教程先到这里，如果在安装过程中有什么问题可以在底部的评论区来留言。</p><p>转载请注明出处，侵权必究！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Deepin安装&quot;&gt;&lt;a href=&quot;#Deepin安装&quot; class=&quot;headerlink&quot; title=&quot;Deepin安装&quot;&gt;&lt;/a&gt;Deepin安装&lt;/h1&gt;&lt;p&gt;在所有Linux里面，我觉得deepin是最好用的一个，相对于小白说也比较友好，&lt;br&gt;最方
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>你好</title>
