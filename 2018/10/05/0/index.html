@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>No title | DaneilXin&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="deepin+hexo+GitHub快速建设自己的个人博客先说下为什么要用deepin因为Linux下用终端就可以完成很多操作，而维护起来也相对容易一些而deepin作为国产的Linux是不叫符合国人的习惯，比较适合小白上手所以我们这里选择deepin关于deepin的安装教程可以见我之前的博客：https://xzd2004.coding.me/2018/10/04/4581/ #首先注册Git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="No title">
+<meta property="og:url" content="http://yoursite.com/2018/10/05/0/index.html">
+<meta property="og:site_name" content="DaneilXin&#39;s Blog">
+<meta property="og:description" content="deepin+hexo+GitHub快速建设自己的个人博客先说下为什么要用deepin因为Linux下用终端就可以完成很多操作，而维护起来也相对容易一些而deepin作为国产的Linux是不叫符合国人的习惯，比较适合小白上手所以我们这里选择deepin关于deepin的安装教程可以见我之前的博客：https://xzd2004.coding.me/2018/10/04/4581/ #首先注册Git">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://www.z4a.net/images/2018/10/05/193679180457a1abe.png">
+<meta property="og:image" content="https://www.z4a.net/images/2018/10/05/29cf47987bcc754b9.png">
+<meta property="og:image" content="https://www.z4a.net/images/2018/10/05/30750415c62d819b9.png">
+<meta property="og:updated_time" content="2018-10-05T07:15:26.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="No title">
+<meta name="twitter:description" content="deepin+hexo+GitHub快速建设自己的个人博客先说下为什么要用deepin因为Linux下用终端就可以完成很多操作，而维护起来也相对容易一些而deepin作为国产的Linux是不叫符合国人的习惯，比较适合小白上手所以我们这里选择deepin关于deepin的安装教程可以见我之前的博客：https://xzd2004.coding.me/2018/10/04/4581/ #首先注册Git">
+<meta name="twitter:image" content="https://www.z4a.net/images/2018/10/05/193679180457a1abe.png">
+    
+        <link rel="alternate" type="application/atom+xml" title="DaneilXin&#39;s Blog" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/img/QQ头像.jpg">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/QQ头像.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Xin</h5>
+          <a href="mailto:18132118669@163.com" title="18132118669@163.com" class="mail">18132118669@163.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                文章
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://user.qzone.qq.com/2646709206/main" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                QQ
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://weibo.com/5691976091/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                微博
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">No title</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">No title</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-10-05T10:23:34.922Z" itemprop="datePublished" class="page-time">
+  2018-10-05
+</time>
+
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#deepin-hexo-GitHub快速建设自己的个人博客"><span class="post-toc-number">1.</span> <span class="post-toc-text">deepin+hexo+GitHub快速建设自己的个人博客</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#先说下为什么要用deepin"><span class="post-toc-number">2.</span> <span class="post-toc-text">先说下为什么要用deepin</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#部署git"><span class="post-toc-number">3.</span> <span class="post-toc-text">部署git</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#创建博客目录"><span class="post-toc-number">4.</span> <span class="post-toc-text">创建博客目录</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-hexo加GitHub迅速建立自己的个人博客"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">No title</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-10-05 18:23:34" datetime="2018-10-05T10:23:34.922Z"  itemprop="datePublished">2018-10-05</time>
+
+            
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="deepin-hexo-GitHub快速建设自己的个人博客"><a href="#deepin-hexo-GitHub快速建设自己的个人博客" class="headerlink" title="deepin+hexo+GitHub快速建设自己的个人博客"></a>deepin+hexo+GitHub快速建设自己的个人博客</h1><h1 id="先说下为什么要用deepin"><a href="#先说下为什么要用deepin" class="headerlink" title="先说下为什么要用deepin"></a>先说下为什么要用deepin</h1><p>因为Linux下用终端就可以完成很多操作，而维护起来也相对容易一些<br>而deepin作为国产的Linux是不叫符合国人的习惯，比较适合小白上手所以我们这里选择deepin<br>关于deepin的安装教程可以见我之前的博客：<a href="https://xzd2004.coding.me/2018/10/04/4581/" title="deepin安装教程 | DanielXin‘s Blog" target="_blank" rel="noopener">https://xzd2004.coding.me/2018/10/04/4581/</a></p>
+<p>#首先注册GitHub账户<br>GitHub官网：<a href="https://github.com/" title="GitHub注册页面" target="_blank" rel="noopener">https://github.com/</a><br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.z4a.net/images/2018/10/05/193679180457a1abe.png" alt="193679180457a1abe.png" title="">
+                </div>
+                <div class="image-caption">193679180457a1abe.png</div>
+            </figure><br>依次输入昵称、邮箱、密码就注册完成了！<br> <strong>这里注意，你的昵称就是你到时候的网址，所以起你想注册的网站的id</strong></p>
+<p>点击你的头像–&gt;<strong>Your repositories</strong>–&gt;<strong>new</strong></p>
+<p><strong>ps:</strong>这里如果看英文网页很不习惯可以百度“百度翻译插件”自行安装<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.z4a.net/images/2018/10/05/29cf47987bcc754b9.png" alt="29cf47987bcc754b9.png" title="">
+                </div>
+                <div class="image-caption">29cf47987bcc754b9.png</div>
+            </figure></p>
+<p>接着在<strong>Repository name</strong>下面依次填写：<br>username.github.io <strong>注：这里的username必须跟你的注册用户名相同！否则之后会出现各种404、无法上传问题</strong></p>
+<p>描述可以随便（就是Desci……）其他的都不用动</p>
+<p>在建好的项目右侧有个settings按钮，点击它，向下拉到GitHub Pages，你会看到那边有个网址，访问它，你将会惊奇的发现该项目已经被部署到网络上，能够通过外网来访问它。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.z4a.net/images/2018/10/05/30750415c62d819b9.png" alt="30750415c62d819b9.png" title="">
+                </div>
+                <div class="image-caption">30750415c62d819b9.png</div>
+            </figure>
+<p>然后打开deepin终端（深度终端哈）</p>
+<h1 id="部署git"><a href="#部署git" class="headerlink" title="部署git"></a>部署git</h1><p> <code>sudo apt-get install git-core</code> 下载git</p>
+<p> <code>git config --global user.name &quot;username&quot;</code> 其中username是你的GitHub用户名</p>
+<p> <code>git config --global user.email &quot;XXXX@XX.com&quot;</code> <a href="mailto:XXXX@XX.com" target="_blank" rel="noopener">XXXX@XX.com</a>填你注册GitHub的邮箱</p>
+<p> <code>ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</code> <a href="mailto:youremail@example.com" target="_blank" rel="noopener">youremail@example.com</a>填你注册GitHub的邮箱，初始化sshkey</p>
+<p>接着登录GitHub</p>
+<p> <code>头像 ---&gt; Settings ---&gt; SSH and GPG keys ---&gt; New SSH key</code> 将ssh key传到GitHub上</p>
+<p> <code>wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash</code> 终端填写以下代码</p>
+<p> <code>command -v nvm</code> 终端填写以下代码</p>
+<p>接着<strong>重开一个终端</strong></p>
+<p>终端依次输入：</p>
+<p> <code>nvm install stable</code></p>
+<p> <code>npm install -g hexo-cli</code></p>
+<p> <code>npm install --save hexo-deployer-git</code> </p>
+<p> <code>npm install hexo-abbrlink --save</code> 安装url地址持久化插件，配置站点文件_config.yml</p>
+<p> <code>npm install hexo-generator-searchdb</code> “添加搜索功能,配置站点文件_config.yml</p>
+<h1 id="创建博客目录"><a href="#创建博客目录" class="headerlink" title="创建博客目录"></a>创建博客目录</h1><p>终端输入：</p>
+<p> <code>mkdir -p /blog</code> 创建根目录文件夹</p>
+<p> <code>hexo init /blog</code> 初始化更目录，生成基本文件</p>
+<p> <code>cd /blog</code> 切换到博客根目录</p>
+<p>接着到博客根目录配置文件<strong>_config.yml</strong></p>
+<p>这样改，没有自己最后加上：</p>
+<p> <strong>deploy:</strong></p>
+<p> <strong>type: git</strong></p>
+<p> <strong>repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:username/username.github.io.git</strong> 注：username为你的GitHub用户名</p>
+<p> <strong>branch: master</strong></p>
+<p>然后最激动人心的时刻！</p>
+<p>打开终端：</p>
+<p> <code>cd blog</code> cd到博客根目录</p>
+<p> <code>hexo g</code> 生成静态网页</p>
+<p> <code>hexo s</code> 本地打开它给你的链接就可以本地查看博客了Ctrl+C停止</p>
+<p> <code>hexo g</code> 上传到GitHub上</p>
+<p>好了！打开浏览器 username.github.io（username是你的用户名）好了，现在你的博客就被上传到网页上了！</p>
+<p>之后的主题更换等优化操作会在我的博客中继续更新，<br>我的博客：<a href="https://xzd2004.coding.me" title="DanielXin’s Blog" target="_blank" rel="noopener">https://xzd2004.coding.me</a></p>
+<p>如果有什么问题欢迎到底部评论区留言</p>
+<p><strong>转载请注明原贴，侵权必究</strong></p>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2018-10-05T07:15:26.000Z" itemprop="dateUpdated">2018-10-05 15:15:26</time>
+</span><br>
+
+
+        
+    </div>
+    
+    <footer>
+        <a href="http://yoursite.com">
+            <img src="/img/QQ头像.jpg" alt="Xin">
+            Xin
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2018/10/05/0/&title=《No title》 — DaneilXin's Blog&pic=http://yoursite.com/img/QQ头像.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2018/10/05/0/&title=《No title》 — DaneilXin's Blog&source=" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/10/05/0/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《No title》 — DaneilXin's Blog&url=http://yoursite.com/2018/10/05/0/&via=http://yoursite.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2018/10/05/0/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2018/10/04/4581/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">deepin安装教程</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+<!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80MDEwOC8xNjYzNQ==">
+<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+</script>
+<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        Thanks~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/微信.jpg" alt="打赏二维码">
+        </div>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>博客内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>Xin &copy; 2018</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2018/10/05/0/&title=《No title》 — DaneilXin's Blog&pic=http://yoursite.com/img/QQ头像.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2018/10/05/0/&title=《No title》 — DaneilXin's Blog&source=" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/10/05/0/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《No title》 — DaneilXin's Blog&url=http://yoursite.com/2018/10/05/0/&via=http://yoursite.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2018/10/05/0/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABwklEQVR42u3a0YoDIQwF0Pn/n+7CPhWWTm+Mhlk4PpVB9NiHoEmuKx6v3/H++9OX9+/J/OvEwMXFbXNftyPh/p2THzI34OLiznPz4HW/8X0IS+hfbLi4uA/jVm8d+Zq4uLj/l5tfdDp0XFzc53CTS0z+HFpbbfNbDRcXt8FdS5ju/X08v4uLi7upKpEUSO5TpfmcaHdcXNwRblICSb4nMzuFlvLSuLi4DW61dFrdMj/MfYDDxcWd5FbbKapL5y1c+Z+Ci4t7mpu0Tew6TLVRI3r24OLiHuPmyc29TRjV1AkuLu4kN2+nqKZKq2mU6NmDi4t7mJtcNaqFkLXtW20WuLi4B7jVB0l+jH7q5GMWBxcX9xg3f950tskfQri4uM/h5iFmrW0iT7V82REXF3eEmyxX3Tg/TDUJi4uLO8OtXj46Sc/8qB+PhIuLO8jdm07Ng1p5R1xc3EFuPjrJjvxg5UiJi4u7lVsNKElBNEmUdB5auLi4M9w8eHVKKdsuQ7i4uIPcJNB0Wig6/WKFbhFcXNxxbj4/mbn4uMLFxX0kt5NeyS83uLi4T+AWip3Fcuyu9g5cXNxJ7kzCdK3NCxcXd5z7A7XpvlXB2DPfAAAAAElFTkSuQmCC" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '死鬼去哪里了！';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
